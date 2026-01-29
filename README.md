@@ -13,8 +13,16 @@ View your app in AI Studio: https://ai.studio/apps/drive/1BrqQuLIAC521P2k6DZCq22
 **Prerequisites:**  Node.js
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Run Tests
+To run the unit tests via Vitest:
+`npm test`
+
+## Startup Notes
+
+### Blank Home Page
+Upon initial startup or when clearing browser storage, the application may display a blank home page or dashboard. This occurs because the mock data layer initializes after the first load. 
+
+**Solution:** Simply refresh the page (F5) to populate the local storage with mock data and display the initial records.
+
+## Project Context
+For detailed setup instructions and rules, refer to [AGENTS.md](AGENTS.md).
