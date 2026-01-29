@@ -1,0 +1,8 @@
+{
+  "name": "Toastmasters VPE Hub",
+  "description": "A comprehensive management system for Vice President Education to track member progress, meeting roles, and educational achievements with built-in sequencing logic and reporting.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
